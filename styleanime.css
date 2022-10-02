@@ -1,0 +1,184 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+span{
+    margin: 0px 0px 0px 4vw;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #a12e32;
+    height: 10vh;
+    line-height: 10vh;
+    width: 100vw;
+    
+
+}
+
+.navigation{
+    color: white;
+    text-decoration: none;
+    margin: 0px 4vw 0px 0px;
+
+}
+
+.navigation:hover{
+    color:black;
+    text-decoration:dashed;
+}
+
+
+
+main{
+    background-image: url('evil_smile_anime-wallpaper-1366x768.jpg');
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+
+
+section{
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    align-items: left;*/
+    width: 90vw;
+    margin: 2% 0% 2% 5%;
+}
+
+.portada{
+    display: flex;
+    border: 3px solid #a12e32;
+    border-radius: 5px;
+    text-align: left;
+    /*margin: 5px 5px 5px 5px;*/
+    padding: 2%;
+    background-color:  rgb(14, 13, 13) ;
+    width: 100vw;
+    flex-direction: row;
+}
+
+figcaption{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0% 0% 0% 2%;
+    font-size: 12px;
+}
+#portada-colunm{
+    flex-direction: column;
+    margin: 2%;
+}
+
+#juegos-colunm{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    
+}
+#juegos-colunm a{
+    text-decoration: none;
+    color: #fff;
+    margin: 1% 0% 1% 0%;
+}
+#juegos-colunm a:hover{
+    color: #a12e32;
+}
+
+h4{
+    color: #fff;
+    font-family: monospace;
+    margin:2%;
+    font-size: x-large;
+}
+
+
+.portada-img{
+    border-bottom: 2px solid #a12e32;
+}
+
+footer{
+    text-align: center;
+    background-color: #a12e32;
+    color: #fff;
+    height: 10vh;
+    line-height: 10vh;
+    width: 100vw;
+    margin-bottom: 0%;  
+}
+
+
+@media screen and (max-width: 600px) {
+    span{
+        margin: 0px 0px 0px 4vw;
+        font-size: x-large;
+        font-style: bold;
+    }
+
+    header{
+        justify-content:space-around
+    }
+   
+    .navigation{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+   }
+
+   section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+   }
+
+   .portada-img{
+    width: 200px;
+    border-bottom: 2px solid #a12e32;
+  
+   }
+   .portada{
+    padding: 2%;
+    width: 70%;
+    flex-direction: column;
+    text-align: center;
+   
+   }
+   
+   figcaption{
+    color: #fff;
+    justify-content: center;
+   }
+   #portada-colunm{
+    width: 80%;
+    text-align: center;
+   }
+
+   
+   h4{
+    margin-bottom: 2px;
+   }
+   
+  }
+  button{
+    background-color: #a12e32;
+    margin: 0% 0% 0% 2%;
+  }
+
+  button a{
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+  }
